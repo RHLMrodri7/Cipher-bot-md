@@ -6,8 +6,8 @@ import axios from 'axios';
 let previousCommitSHA = '';
 let previousUpdatedAt = '';
 let previousCommitUser = ''; 
-const owner = 'BrunoSobrino';
-const repo = 'TheMystic-Bot-MD';
+const owner = 'RHLMrodri7';
+const repo = 'Cipher-bot-md';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
